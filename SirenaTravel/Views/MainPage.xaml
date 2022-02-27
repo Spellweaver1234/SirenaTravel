@@ -1,0 +1,105 @@
+﻿<ContentPage
+    x:Class="SirenaTravel.Views.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodels="clr-namespace:SirenaTravel.ViewModels"
+    x:DataType="viewmodels:MainVM">
+
+    <StackLayout Padding="15">
+        <Label
+            FontSize="Medium"
+            HorizontalOptions="Center"
+            Text="For Northern latitude for East longitude only!"
+            TextColor="Gray" />
+        <Grid>
+            <Frame
+                Grid.Column="0"
+                Padding="8"
+                BorderColor="Green"
+                CornerRadius="15">
+
+                <StackLayout>
+                    <Label
+                        FontAttributes="Bold"
+                        Text="Enter IATA"
+                        TextColor="Black" />
+                    <Entry Text="{Binding FirstIATA}" />
+                    <Label Text="{Binding FirstAirport.city}" />
+                    <Label Text="{Binding FirstAirport.city_iata}" />
+                    <Label Text="{Binding FirstAirport.country}" />
+                    <Label Text="{Binding FirstAirport.country_iata}" />
+                    <Label Text="{Binding FirstAirport.name}" />
+                    <Label Text="{Binding FirstAirport.location.lat}" />
+                    <Label Text="{Binding FirstAirport.location.lon}" />
+                    <Label Text="{Binding FirstAirport.timezone_region_name}" />
+                    <Label Text="{Binding FirstAirport.hubs}" />
+                    <Label Text="{Binding FirstInfo}" />
+                    <Button
+                        BackgroundColor="Aquamarine"
+                        Command="{Binding CommandGetFirstAirport}"
+                        CornerRadius="15"
+                        Text="Get first data" />
+                </StackLayout>
+            </Frame>
+            <Frame
+                Grid.Column="1"
+                Padding="8"
+                BorderColor="Green"
+                CornerRadius="15">
+
+                <StackLayout>
+                    <Label
+                        FontAttributes="Bold"
+                        Text="Enter IATA"
+                        TextColor="Black" />
+                    <Entry Text="{Binding SecondIATA}" />
+                    <Label Text="{Binding SecondAirport.city}" />
+                    <Label Text="{Binding SecondAirport.city_iata}" />
+                    <Label Text="{Binding SecondAirport.country}" />
+                    <Label Text="{Binding SecondAirport.country_iata}" />
+                    <Label Text="{Binding SecondAirport.name}" />
+                    <Label Text="{Binding SecondAirport.location.lat}" />
+                    <Label Text="{Binding SecondAirport.location.lon}" />
+                    <Label Text="{Binding SecondAirport.timezone_region_name}" />
+                    <Label Text="{Binding SecondAirport.hubs}" />
+                    <Label Text="{Binding SecondInfo}" />
+                    <Button
+                        BackgroundColor="Aquamarine"
+                        Command="{Binding CommandGetSecondAirport}"
+                        CornerRadius="15"
+                        Text="Get second data" />
+                </StackLayout>
+            </Frame>
+        </Grid>
+        <Button
+            Padding="15"
+            BackgroundColor="Aquamarine"
+            Command="{Binding CommandGetAllAirports}"
+            CornerRadius="15"
+            Text="Get all data" />
+        <Button
+            Padding="15"
+            BackgroundColor="Aquamarine"
+            Command="{Binding CommandCalculate}"
+            CornerRadius="15"
+            Text="Calculate distance" />
+        <Frame
+            Padding="10"
+            BorderColor="Green"
+            CornerRadius="15">
+            <StackLayout>
+                <Label
+                    FontSize="Large"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="{Binding ResultKilometers, StringFormat='Distance in Kilometers = {0:F1}'}"
+                    TextColor="Black" />
+                <Label
+                    FontSize="Large"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="{Binding ResultMiles, StringFormat='Distance in Miles = {0:F1}'}"
+                    TextColor="Black" />
+
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

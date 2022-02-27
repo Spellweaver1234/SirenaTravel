@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SirenaTravel.Android", "SirenaTravel.Android\SirenaTravel.Android.csproj", "{26959CDC-0E24-4173-A3D7-E09C244BA3B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SirenaTravel", "SirenaTravel\SirenaTravel.csproj", "{2E596452-91A0-46C9-8C08-5D750840811D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26959CDC-0E24-4173-A3D7-E09C244BA3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26959CDC-0E24-4173-A3D7-E09C244BA3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26959CDC-0E24-4173-A3D7-E09C244BA3B3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{26959CDC-0E24-4173-A3D7-E09C244BA3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26959CDC-0E24-4173-A3D7-E09C244BA3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26959CDC-0E24-4173-A3D7-E09C244BA3B3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2E596452-91A0-46C9-8C08-5D750840811D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E596452-91A0-46C9-8C08-5D750840811D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E596452-91A0-46C9-8C08-5D750840811D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2E596452-91A0-46C9-8C08-5D750840811D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E596452-91A0-46C9-8C08-5D750840811D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E596452-91A0-46C9-8C08-5D750840811D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66A5280F-9CDD-40B6-BDF5-F5F03761FD03}
+	EndGlobalSection
+EndGlobal
