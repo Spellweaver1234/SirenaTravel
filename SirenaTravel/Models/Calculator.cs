@@ -2,7 +2,7 @@
 
 namespace SirenaTravel.Models
 {
-    static class Calculator
+    public static class Calculator
     {
         const int R = 6371;     // радиус Земли
 

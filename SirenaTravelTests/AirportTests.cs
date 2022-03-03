@@ -5,7 +5,7 @@ using SirenaTravel.Services;
 namespace SirenaTravelTests
 {
     [TestClass]
-    public class AirportsTests
+    public class AirportTests
     {
         RequestsService service = new RequestsService();
 
