@@ -9,7 +9,7 @@ using SirenaTravel.Models;
 
 namespace SirenaTravel.Services
 {
-    class RequestsService
+    public class RequestsService
     {
         HttpClient client;
         enum ApiName

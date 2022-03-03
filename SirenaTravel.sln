@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SirenaTravel.Android", "SirenaTravel.Android\SirenaTravel.Android.csproj", "{26959CDC-0E24-4173-A3D7-E09C244BA3B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SirenaTravel", "SirenaTravel\SirenaTravel.csproj", "{2E596452-91A0-46C9-8C08-5D750840811D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SirenaTravel", "SirenaTravel\SirenaTravel.csproj", "{2E596452-91A0-46C9-8C08-5D750840811D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SirenaTravelTests", "SirenaTravelTests\SirenaTravelTests.csproj", "{8DB6D0E6-F9E4-4900-A2EB-AC740210EB4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{2E596452-91A0-46C9-8C08-5D750840811D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E596452-91A0-46C9-8C08-5D750840811D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E596452-91A0-46C9-8C08-5D750840811D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8DB6D0E6-F9E4-4900-A2EB-AC740210EB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB6D0E6-F9E4-4900-A2EB-AC740210EB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB6D0E6-F9E4-4900-A2EB-AC740210EB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB6D0E6-F9E4-4900-A2EB-AC740210EB4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
